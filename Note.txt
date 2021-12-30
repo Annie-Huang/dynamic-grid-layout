@@ -1,0 +1,7 @@
+Learn how to create a responsive CSS grid layout
+(https://www.youtube.com/watch?v=sKFW3wek21Q)
+
+https://github.com/kevin-powell/dynamic-grid-layout
+https://github.com/Annie-Huang/dynamic-grid-layout
+
+===========================================================
