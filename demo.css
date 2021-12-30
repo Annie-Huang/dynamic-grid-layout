@@ -152,3 +152,6 @@ body {
   /* 1.25 is the magic number, you play around with different screen width to come up with that size. */
   aspect-ratio: 1 / 1.25;
 }
+.card.featured .card__title {
+  font-size: 1.75rem;
+}
