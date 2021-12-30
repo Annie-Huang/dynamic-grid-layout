@@ -115,14 +115,15 @@ body {
 
 .card {
   aspect-ratio: 1 / 1.5;
-  border: 3px solid hotpink;
+  /*border: 3px solid hotpink;*/
 }
 
 .card__content {
   background: white;
   align-self: end;
-  margin: 0.5rem;
+  margin: 0.5rem 0.5rem 2rem;
   padding: 0.5rem;
+  box-shadow: 0 0.25rem 1rem rgb(0 0 0 / 0.1);
 }
 
 .card__img {
