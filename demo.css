@@ -143,3 +143,8 @@ body {
   aspect-ratio: 1 / 1;
   object-fit: cover;
 }
+
+.card.featured {
+  grid-row: span 2;
+  grid-column: span 2;
+}

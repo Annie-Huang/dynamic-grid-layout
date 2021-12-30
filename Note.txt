@@ -5,3 +5,14 @@ https://github.com/kevin-powell/dynamic-grid-layout
 https://github.com/Annie-Huang/dynamic-grid-layout
 
 ===========================================================
+
+With
+.card.featured {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+and
+.product-grid {
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+You can see the (rest of) small cards fit into the available size nicely while you change screen width
