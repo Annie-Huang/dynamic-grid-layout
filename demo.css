@@ -144,14 +144,16 @@ body {
   object-fit: cover;
 }
 
-.card.featured {
-  grid-row: span 2;
-  grid-column: span 2;
-}
-.card.featured .card__img {
-  /* 1.25 is the magic number, you play around with different screen width to come up with that size. */
-  aspect-ratio: 1 / 1.25;
-}
-.card.featured .card__title {
-  font-size: 1.75rem;
+@media (min-width: 60em) {
+  .card.featured {
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+  .card.featured .card__img {
+    /* 1.25 is the magic number, you play around with different screen width to come up with that size. */
+    aspect-ratio: 1 / 1.25;
+  }
+  .card.featured .card__title {
+    font-size: 1.75rem;
+  }
 }
