@@ -93,6 +93,15 @@ body {
   padding: 2rem 0;
 }
 
+/* Use grid to stack the element to be on top of each other, sort of like (position absolute) */
+.stacked {
+  display: grid;
+}
+.stacked > * {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
 .container {
   max-width: 100rem;
   margin-inline: auto;
