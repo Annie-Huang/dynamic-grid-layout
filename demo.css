@@ -148,3 +148,7 @@ body {
   grid-row: span 2;
   grid-column: span 2;
 }
+.card.featured .card__img {
+  /* 1.25 is the magic number, you play around with different screen width to come up with that size. */
+  aspect-ratio: 1 / 1.25;
+}
