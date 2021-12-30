@@ -117,6 +117,13 @@ body {
   border: 3px solid hotpink;
 }
 
+.card__content {
+  background: white;
+  align-self: end;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
 .card__img {
   /*width: 100%;*/
   aspect-ratio: 1 / 1;
